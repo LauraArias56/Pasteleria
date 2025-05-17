@@ -13,8 +13,6 @@ body {
   margin: 0 20px; 
 }
 
-
-/* NAVBAR */
 .navbar {
   margin-top: 10px;
   position: fixed;
@@ -22,8 +20,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
- background-color:  #a10d2f !important
- 
+  background-color:  #a10d2f !important;
 }
 
 .navbar .btn {
@@ -32,9 +29,22 @@ body {
    padding: 12px 120px;
 }
 
+.logo-redondo {
+  width: 80px;              
+  height: 80px;             
+  border-radius: 50%;       
+  object-fit: cover;      
+  display: block;          
+}
 
+.titulo {
+  padding-top: 120px;
+}
 
-/* TARJETAS */
+.titulo2 {
+  padding-top: 10px;
+}
+
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   background-color: #f8d9e0;
@@ -44,7 +54,6 @@ body {
   transform: scale(1.03);
 }
 
-/* TITULOS*/
 h2 {
   font-weight: bold;
   margin-bottom: 30px;
@@ -84,12 +93,6 @@ a.text-dark:hover {
   text-decoration: underline;
 }
 
-
-.logo-redondo {
-  border-radius: 50%; 
-  object-fit: cover; 
-}
-
 .header-bottom2 {
   background-color: var(--rojo-cereza);
   color: white;
@@ -108,13 +111,6 @@ a.text-dark:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-:root {
-  --dorado: #d4af37;
-  --marron: #5c4033;
-  --rojo-cereza: #a10d2f;
-  --rosa-pastel: #f8d9e0;
-  --crema: #fff8e7;
-}
 
 body {
   background-color: var(--crema);
@@ -143,7 +139,7 @@ body {
 }
 
 h4 {
-  font-size: 2rem; /* Puedes aumentar o reducir según necesites */
+  font-size: 2rem; 
   font-weight: bold;
 }
 
@@ -156,6 +152,8 @@ h4 {
 
 .btn-menu{
   background-color: #a10d2f;
+   width: 250px;
+  height: 100vh;
 }
 
 .parra-per{
@@ -179,6 +177,5 @@ h4 {
 .perfil img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* la imagen cubre el contenedor sin deformarse */
-  display: block;    /* elimina espacios en línea */
+  object-fit: cover;
 }
